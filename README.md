@@ -18,7 +18,7 @@ The program allows users to order drinks, insert coins, check machine resources,
 2. The program looks up the drink and retrieves its ingredient requirements.  
 3. The machine checks whether enough water, milk, and coffee are available.  
 4. If resources are sufficient, the user is prompted to insert coins.  
-5. The MoneyMachine calculates the total amount and checks if it covers the drink cost.  
+5. The it calculates the total amount and checks if it covers the drink cost.  
 6. If payment is successful, the machine deducts ingredients and “makes” the drink.  
 7. The user can type `report` to view current resources or `off` to shut down the machine. 
 
