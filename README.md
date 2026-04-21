@@ -14,12 +14,13 @@ The program allows users to order drinks, insert coins, check machine resources,
 - How to write clean, readable, modular Python code
 
 ## 🧩 How It Works
-1. The user selects a drink.
-2. The machine checks if enough ingredients are available.
-3. The user inserts coins.
-4. The machine verifies payment and returns change if needed.
-5. Ingredients are deducted and the drink is served.
-6. Profit is updated.
+1. The user selects a drink from the menu.  
+2. The program looks up the drink and retrieves its ingredient requirements.  
+3. The machine checks whether enough water, milk, and coffee are available.  
+4. If resources are sufficient, the user is prompted to insert coins.  
+5. The MoneyMachine calculates the total amount and checks if it covers the drink cost.  
+6. If payment is successful, the machine deducts ingredients and “makes” the drink.  
+7. The user can type `report` to view current resources or `off` to shut down the machine. 
 
 ## 📸 Example Output
 ```
@@ -37,9 +38,6 @@ Run `main.py` in a Python environment and follow the prompts:
 
 ## 📁 Files
 - `main.py`: Main game logic
-
-## 📚 Credits
-Art inspired by the [100 Days of Code: Python Bootcamp](https://www.udemy.com/course/100-days-of-code/) by Dr. Angela Yu. Used for educational purposes under fair use.
 
 ## 🙏 Acknowledgements
 - Thanks to Dr. Angela Yu and the team behind the 100 Days of Code: Python Bootcamp for the original project structure and assets.
